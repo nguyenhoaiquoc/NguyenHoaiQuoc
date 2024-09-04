@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quoc Dep Trai OK</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            /* Màu nền nhẹ nhàng */
+            font-family: Arial, sans-serif;
+        }
+
+        button {
+            padding: 15px 30px;
+            background-color: #ff69b4;
+            /* Màu hồng tươi */
+            color: white;
+            border: none;
+            border-radius: 30px;
+            /* Bo tròn nút */
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Đổ bóng nhẹ */
+            transition: background-color 0.3s, transform 0.3s;
+            /* Hiệu ứng chuyển đổi */
+        }
+
+        button:hover {
+            background-color: #ff85c1;
+            /* Màu hồng đậm hơn khi hover */
+            transform: translateY(-2px);
+            /* Hiệu ứng nhấn lên khi hover */
+        }
+
+        #message {
+            display: none;
+            /* Ẩn đoạn văn bản ban đầu */
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="myButton" onclick="showMessage()">Ấn vào đây nhé :((</button>
+    <h1 id="message">Cuối cùng chúng ta đã đến cái tuổi...mà dù cả ngày không làm gì thì vẫn thấy mệt 😞 =))</h1>
+    <script>
+        alert("Hello Hoa");
+        alert("To La Quoc");
+        alert("...");
+        alert("Chỉ muốn nói với Hoa là ...");
+        alert("...");
+        alert("=))");
+        alert("=))))");
+        alert("Tiếp tục nhé :((");
+        alert("Haizz");
+        alert("Haizzzzzzz");
+        alert("Huhuhuhuhuhu");
+        alert("Xong roi do ... :((")
+        alert(">_<")
+        function showMessage() {
+            document.getElementById("message").style.display = "block"; // Hiển thị đoạn văn bản
+            document.getElementById("myButton").style.display = "none"; // Ẩn nút button
+        }
+
+    </script>
+
+</body>
+
+</html>
